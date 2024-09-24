@@ -9,3 +9,28 @@ int main() {
      printf("\nAfter Sorting: a = %d, b = %d", a,b);
     return 0;
 }
+
+
+
+
+                                   SORTING 3 NUMBERS 
+
+
+
+#include <stdio.h>
+
+int main() {
+     int a=2, b=6, c=4, temporary;
+     printf("\nBefore Sorting: a = %d, b = %d, c = %d", a,b,c);
+     if (a > b) { // Swap the numbers
+       temporary = a; a = b; b = temporary;
+     }
+     if (a > c) { // Swap the numbers
+       temporary = a; a = c; c = temporary;
+     }
+     if (b > c) { // Swap the numbers
+       temporary = b; b = c; c = temporary;
+     }
+     printf("\nAfter Sorting: a = %d, b = %d, c=%d",a,b,c);
+    return 0;
+}

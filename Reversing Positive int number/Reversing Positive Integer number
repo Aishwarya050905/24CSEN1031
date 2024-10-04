@@ -1,0 +1,30 @@
+//Reverse a positive integer number:
+#include <stdio.h>
+
+int main() {
+    int a, b,c, sum = 0;
+    printf("Enter a number to be reversed : ");
+    scanf("%d",&a);
+    
+    while(a>=1) {
+        b=a%10;
+        a=a/10;
+        sum = sum*10 + b; }
+        a = sum;
+        printf("\n\n after reversing %d",a);
+        
+    return 0;
+}
+
+
+
+
+
+
+        OUTPUT 
+Enter a number to be reversed : 475
+
+
+ after reversing 574
+
+=== Code Execution Successful ===
